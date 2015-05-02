@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 __author__ = 'Zoa Chou'
+# see http://www.mudoom.com/Article/show/id/29.html for detail
 
 import logging
 import smtplib
