@@ -2,14 +2,12 @@
 
 import os
 import gc
-import sys
 
 import jieba
 
 from sklearn.externals import joblib
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.cross_validation import train_test_split
-sys.path.append(os.path.realpath(os.path.realpath(__file__)+'/../../../'))
 jieba.initialize()
 
 
